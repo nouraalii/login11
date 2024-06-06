@@ -1,0 +1,64 @@
+body{
+    background-color: #24353f;
+    color: #17a2b8;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.bg-nav{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.form-div{
+    width: 60%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.form-control{
+    border: 1px solid #ced4da;
+    color: #ced4da;
+}
+
+.form-control::placeholder{
+    color: #ced4da;
+}
+
+.btn-color{
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+}
+
+.logoutBtn{
+    background-color: transparent;
+    border: 1px solid #ffc107;
+    color: #a2a4a7;
+}
+
+/* ------------------------pseudo elemnts------------------------- */
+
+.btn-color:hover{
+    background-color: #17a2b8;
+    color: #ced4da;
+}
+
+.form-control:focus{
+    border-color: #17a2b8;
+    box-shadow: 0 0 0 #17a2b8;
+    color: white;
+}
+
+
+a:hover{
+    text-decoration:underline !important;
+}
+
+.logoutBtn:hover{
+    text-decoration: none !important;
+    color: white;
+}
+
+.navbar-brand:hover{
+    text-decoration: none !important;
+}
